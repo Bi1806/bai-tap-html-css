@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>blog</title>
+        <style>
+            a:link {
+                color: blue;
+            }
+            a:visited {
+                color: red;
+            }
+            a:active {
+                color: green;
+            }
+            
+            .main-container {
+                display: flex; 
+            }
+            .menu-column {
+                width: 25%;
+                padding-right: 20px;
+            }
+            .content-column {
+                width: 75%;
+                border-left: 2px solid green;
+                padding-left: 20px;
+                text-align: left; 
+            }
+            .last-post{
+                width: 25%;
+                border: 2px dashed green;
+                padding-left:10px;
+                align-self: flex-start;
+        
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="background-color: yellow; text-align: center;">My blog about my life</h1>
+
+        <div class="main-container">
+            <div class="menu-column">
+                <h2><strong>Menu</strong></h2>
+                <ul>
+                    <li><a href="one.html">Today</a></li>
+                    <li><a href="two.html">Yesterday</a></li>
+                    <li><a href="three.html">Last week</a></li>
+                    <li><a href="four.html">Archives</a></li>
+                </ul>
+            </div>
+
+            <div class="content-column">
+                <h2><strong>Meeting with supervisor</strong></h2>
+                <p>14 Dev 2013</p>
+                 <p>Today i want to the unviversity by bus</p>
+                 <p>i had a met with my PhD supervisor</p>
+                 <h2><strong>New car!!!</strong></h2>
+                 <p>12 Dec 2013</p>
+                 <p>Today i bought my new car. it's a Honda Acond and it's really nice</p>
+                 <p>i met some friends at a pub.</p>
+                    <h2><strong>Visit my parents</strong></h2>
+                    <p>10 Dec 2013</p>
+                    <p>Tried to contact my PhD supervisor. He was out of his office.</p>
+                    <p>I visited my parents and we had a nice dinner together.</p>
+                </div>
+                <div class="last-post">
+                <h2><strong>Last posts</strong></h2>
+                <ul>
+                    <li><a href="#">Meeting with supervisor</a></li>
+                    <li><a href="#">New car!!!</a></li>
+                    <li><a href="#">Visit my parents</a></li>
+                </ul>
+            </div>
+        </div>
+        <p style = "text-align:center;">Contact me:<a href="email@meeting.com" style ="color :blue;">email@meeting.com</a></p>
+    </body>
+</html>
