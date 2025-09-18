@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+          .container {
+            width: 800px;            
+            margin: 30px auto;           
+            border: 2px solid #006980;   
+            padding: 20px;              
+            background-color: white;     
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+        }
+
+        .main-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+        }
+        .main-container p {
+            font-size: 20px;
+            text-decoration: underline;
+            font-weight: bold;
+            margin: 0;
+            cursor: pointer;
+        }
+
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;  
+            gap: 40px;
+            margin-top: 30px;
+        }
+
+        .column {
+            width: 300px;
+            padding-left: 20px;       
+        }
+
+        .column + .column {
+            border-left: 2px solid rgb(0, 105, 128)
+        }
+
+        .column h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .column p {
+            margin: 5px 0;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center;">Home page</h1>
+      <div class="container">
+    <h2 style="text-align:center;">Logo - University name</h2>
+
+    <div class="main-container">
+        <p>Presentation</p>
+        <p>Studies</p>
+        <p>Staff</p>
+    </div>
+
+    <div class="content">
+        <div class="column">
+            <h3>News</h3>
+            <p><b>News 1 - Date</b></p>
+            <p>Description</p>
+            <p><b>News 2 - Date</b></p>
+            <p>Description</p>
+        </div>
+        <div class="column">
+            <h3>Announcements</h3>
+            <p><b>Open course 1</b></p>
+            <p>Description</p>
+            <p><b>Open course 2</b></p>
+            <p>Description</p>
+        </div>
+    </div>
+    <p style="text-align:center;">Contact:info@university.com</p>
+    <p style="text-align:center;">(c)Uniersity,2011</p>
+    </div>
+</body>
+</html>
